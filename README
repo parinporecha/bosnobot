@@ -1,4 +1,3 @@
-
 ========
 bosnobot
 ========
@@ -114,6 +113,11 @@ Running the Bot
 To run the bot based on its installation above you can simply execute::
 
     python -m bosnobot
+    
+For python version >2.5, the above command won't work due to a regression(http://bugs.python.org/issue2751).
+To run the bot, execute:
+
+   python -c "import bosnobot; bosnobot.main()"
 
 Need more help?
 ===============
